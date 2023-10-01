@@ -12,3 +12,11 @@ Build Requirements:
 
 Команда для запуска тестов: pytest test_unit.py test_integration.py test_system.py
 
+\
+Добавлено тестирование с помощью serverspec, проверяется установка chrome, python и необходимых python библиотек. Тесты реализованы в файле serverspec/spec/localhost/script_spec.rb
+
+Результат serverspec тестирования:
+
+![image](https://github.com/Zivan182/innprak-parsing/assets/71238076/652b2401-37a9-46b1-a847-025d54c02ee9)
+
+
